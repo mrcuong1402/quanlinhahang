@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNhaHangModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QLNhaHangEntities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="ExportReport" ReturnType="Collection(QLNhaHangModel.ExportReport_Result)" />
+  </EntityContainer>
+  <ComplexType Name="ExportReport_Result">
+    <Property Type="String" Name="Tên_món" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="Số_lượng" Nullable="false" />
+    <Property Type="Double" Name="Đơn_giá" Nullable="false" />
+    <Property Type="Double" Name="Thành_tiền" Nullable="false" />
+  </ComplexType>
+</Schema>

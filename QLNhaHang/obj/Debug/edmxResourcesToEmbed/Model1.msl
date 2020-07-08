@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLNhaHangModelStoreContainer" CdmEntityContainer="QLNhaHangEntities">
+    <FunctionImportMapping FunctionImportName="ExportReport" FunctionName="QLNhaHangModel.Store.ExportReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="QLNhaHangModel.ExportReport_Result">
+          <ScalarProperty Name="Tên_món" ColumnName="Tên món" />
+          <ScalarProperty Name="Số_lượng" ColumnName="Số lượng" />
+          <ScalarProperty Name="Đơn_giá" ColumnName="Đơn giá" />
+          <ScalarProperty Name="Thành_tiền" ColumnName="Thành tiền" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
